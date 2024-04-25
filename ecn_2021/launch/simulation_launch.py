@@ -17,6 +17,6 @@ def generate_launch_description():
     sl.include('ecn_2021','turtlebot_nav_launch.py')
             
     # run RViz2
-    sl.rviz(sl.find('ecn_exam_2021', 'config.rviz'))
+    sl.rviz(sl.find('ecn_2021', 'config.rviz'))
     
     return sl.launch_description()
